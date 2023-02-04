@@ -9,4 +9,7 @@
   .btn {
     @apply bg-[#f8f9fa] p-3 rounded-md ring-gray-200 text-sm text-gray-800 hover:ring-1 focus:outline-none active:ring-gray-300 hover:shadow-md;
   }
+  .paginationButton {
+    @apply flex flex-grow flex-col items-center cursor-pointer hover:underline;
+  }
 }
