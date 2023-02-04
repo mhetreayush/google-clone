@@ -49,6 +49,7 @@ const Home = () => {
       {/* Body */}
       <form className="flex flex-col items-center mt-44 flex-grow w-4/5">
         <Image
+          alt="Google Logo"
           src="https://www.google.co.uk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
           height={100}
           width={300}

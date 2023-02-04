@@ -6,7 +6,6 @@ import Response from "../Response";
 const API_KEY = process.env.NEXT_PUBLIC_GOOGLE_API_KEY;
 const CONTEXT_KEY = process.env.NEXT_PUBLIC_CONTEXT_KEY;
 const Search = ({ results }) => {
-  console.log(results);
   const router = useRouter();
 
   return (
