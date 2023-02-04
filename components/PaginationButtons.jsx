@@ -6,7 +6,7 @@ const PaginationButtons = () => {
   const startIndex = Number(router.query.start) || 0;
   return (
     <div
-      className={`flex max-w-lg justify-${
+      className={`flex w-full justify-${
         startIndex >= 10 ? "between" : "center"
       } text-blue-700 mb-10`}
     >
